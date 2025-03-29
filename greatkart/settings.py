@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'category',
     'accounts',
     'store',
+    'carts',
     
 ]
 
@@ -77,6 +78,9 @@ WSGI_APPLICATION = 'greatkart.wsgi.application'
 # custome admin page code below
 
 AUTH_USER_MODEL='accounts.Account'
+
+# SESSION_ENGINE = 'django.contrib.sessions.backends.db'  # Uses database sessions
+
 
 
 # Database
